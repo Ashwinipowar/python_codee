@@ -5,7 +5,7 @@
 # sets do nit contain duplicate items
 
 
-
+# set operation
 s={2,4,2,5}
 print(s) 
 # here we got the output of the 24 nad 5 nit repeat the value of the 2
