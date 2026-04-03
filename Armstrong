@@ -1,0 +1,55 @@
+n=153
+num=n
+total=0
+nod=len(str(n))
+while num>0:
+    id=num%10
+    total=total+(id**nod)
+    num=num//10
+print("this is a armstrog ", total==n)
+
+
+
+
+
+
+# # Function to check if a number is Armstrong
+# def is_armstrong(n):
+#     # Convert number to string to count digits
+#     num_str = str(n)
+#     num_digits = len(num_str)
+
+#     # Calculate sum of each digit raised to the power of num_digits
+#     total = 0
+#     for digit in num_str:
+#         total += int(digit) ** num_digits
+
+#     # Check if total equals the original number
+#     return total == n
+
+# # Loop from 1 to 100000 to find all Armstrong numbers
+# print("Armstrong numbers from 1 to 100000 are:")
+# for number in range(1, 100001):
+#     if is_armstrong(number):
+#         print(number)
+
+
+
+
+
+n = 153           # The number to check
+num = n           # Copy of n to manipulate in the loop
+total = 0         # Initialize sum of powered digits to zero
+
+nod = len(str(n)) # Count the number of digits in n by converting to string
+
+while num > 0:    
+    id = num % 10             # Extract the last digit of num
+    total = total + (id ** nod)  # Raise digit to power 'nod' and add to total
+    num = num // 10           # Remove the last digit from num (integer division)
+
+# After the loop, total contains sum of each digit raised to power nod
+# Check if total equals original number n
+print("this is a armstrog", total == n)
+
+
