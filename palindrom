@@ -1,0 +1,31 @@
+# n= 1234
+# num=n
+# result=0
+# while num>0:
+#     id=num%10
+#     result =(result*10)+10
+#     num=num//10
+# print("Is it a palindrome?", n == result)
+
+
+
+# n = 1234
+# num = n
+# result = 0
+
+# while num > 0:
+#     digit = num % 10
+#     result = (result * 10) + digit
+#     num = num // 10
+
+# print("Is it a palindrome?", n == result)
+
+
+n= 1111
+num=n
+result=0
+while num>0:
+    id=num%10
+    result =(result*10)+10
+    num=num//10
+print("Is it a palindrome?", n == result)
