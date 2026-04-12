@@ -1,0 +1,18 @@
+# num=[5,6,7,7,1,9,111,1,1,5,1,1]
+# n=len(num)
+# hash_map=dict()
+# for i in range (0,n):
+#     hash_map[num[4]]=hash_map.get(num[4],0)+1
+
+# print(hash_map)
+
+
+# a perticular number which appear how many time in the list
+num = [5, 6, 7, 7, 1, 9, 111, 1, 1, 5, 1, 1]
+hash_map = {}
+
+for val in num:
+    hash_map[val] = hash_map.get(val, 0) + 1
+
+# To find how many times 1 appears:
+print("1 appears", hash_map[111], "times")
