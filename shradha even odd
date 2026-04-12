@@ -1,0 +1,12 @@
+def check_even_odd(i):
+    if i < 0:
+        print("error: negative number")
+    elif i % 2 == 0:
+        print("even")
+    else:
+        print("odd")
+
+# Example
+check_even_odd(-5)   # Will print: error: negative number
+check_even_odd(4)    # Will print: even
+check_even_odd(3)    # Will print: odd
